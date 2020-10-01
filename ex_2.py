@@ -199,6 +199,8 @@ def fish(scale, step_x, step_y, width_of_line, eye_radius, pupil_radius):
     circle(display, (0, 0, 240), (6*scale + step_x, 29*scale + step_y), eye_radius)  
     circle(display, (0, 0, 0), (6*scale + step_x, 29*scale + step_y), pupil_radius) 
     ellipse(display, (255, 255, 255), (5.7*scale + step_x, 28.7*scale + step_y, pupil_radius*0.7, pupil_radius*0.5))
+    
+    
 sky(1) 
 all_birds(1)
 fish(25, 0, 0, 2, 10, 6)
